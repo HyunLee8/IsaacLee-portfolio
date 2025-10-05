@@ -1,17 +1,8 @@
+import ContactForm from "../components/contact-form";
+
 export default function Home() {
   return (
-    <div
-      style={{
-        backgroundColor: "var(--bg-color)",
-        backgroundImage: `
-        radial-gradient(circle at center, rgba(0,0,0,0) 5%, var(--vignette-color) 100%),
-        radial-gradient(var(--dot-color) 1px, rgba(255,255,255,0.00) 1px)
-      `,
-        backgroundSize: "cover, 20px 20px",
-        backgroundRepeat: "no-repeat, repeat",
-        backgroundPosition: "center, 0 0",
-      }}
-    >
+    <div id="bgWrap" className="mix-h-screen w-full flex-grow">
       <section>
         <div
           onClick={() =>
@@ -19,21 +10,11 @@ export default function Home() {
               .getElementById("experience")
               ?.scrollIntoView({ behavior: "smooth" })
           }
-          style={{
-            backgroundColor: "var(--bg-color)",
-            backgroundImage: `
-              radial-gradient(circle at center, rgba(0,0,0,0) 5%, var(--vignette-color) 100%),
-              radial-gradient(var(--dot-color) 1px, rgba(255,255,255,0.00) 1px)
-            `,
-            backgroundSize: "cover, 20px 20px",
-            backgroundRepeat: "no-repeat, repeat",
-            backgroundPosition: "center, 0 0",
-          }}
           className="h-220"
         >
           <div className="flex justify-center pt-70">
             <h1 className="text-2xl front-bold animate-pulse animate-colorfade text-blue-500 transition-colors hover:text-blue-500 cursor-pointer py-5 px-10 rounded-full mt-0 ">
-              Greetings, I'm Isaac Lee{" "}
+              Greetings, I'm Isaac Lee
             </h1>
           </div>
           <div className="text-center text-6xl">
@@ -45,16 +26,6 @@ export default function Home() {
         <div
           id="experience"
           className="w-full text-lg leading-relaxed flex items-center flex-col mb-20"
-          style={{
-            backgroundColor: "var(--bg-color)",
-            backgroundImage: `
-              radial-gradient(circle at center, rgba(0,0,0,0) 5%, var(--vignette-color) 100%),
-              radial-gradient(var(--dot-color) 1px, rgba(255,255,255,0.00) 1px)
-            `,
-            backgroundSize: "cover, 20px 20px",
-            backgroundRepeat: "no-repeat, repeat",
-            backgroundPosition: "center, 0 0",
-          }}
         >
           <div className="justify-center flex items-center flex-col">
             <div className="px-10 max-w-250">
@@ -116,18 +87,7 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <div
-          style={{
-            backgroundColor: "var(--bg-color)",
-            backgroundImage: `
-              radial-gradient(circle at center, rgba(0,0,0,0) 5%, var(--vignette-color) 100%),
-              radial-gradient(var(--dot-color) 1px, rgba(255,255,255,0.00) 1px)
-            `,
-            backgroundSize: "cover, 20px 20px",
-            backgroundRepeat: "no-repeat, repeat",
-            backgroundPosition: "center, 0 0",
-          }}
-        >
+        <div>
           <div id="skills" className="h-200 max-w-300 mx-auto">
             <h1 className="font-bold text-7xl mb-10 flex justify-center pt-25">
               Skills
@@ -164,22 +124,12 @@ export default function Home() {
                 </div>
               </a>
             </div>
+            <div className="">
+              <div id="contact">
+                <ContactForm />
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <div
-          style={{
-            backgroundColor: "var(--bg-color)",
-            backgroundImage: `
-              radial-gradient(circle at center, rgba(0,0,0,0) 5%, var(--vignette-color) 100%),
-              radial-gradient(var(--dot-color) 1px, rgba(255,255,255,0.00) 1px)
-            `,
-            backgroundSize: "cover, 20px 20px",
-            backgroundRepeat: "no-repeat, repeat",
-            backgroundPosition: "center, 0 0",
-          }}
-        >
         </div>
       </section>
     </div>

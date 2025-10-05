@@ -132,3 +132,20 @@
   --dot-color: rgba(255,255,255,0.2);
   --vignette-color: rgba(0,0,0,0.7);
 }
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+
+  /* Background styles */
+  background-color: var(--bg-color);
+  background-image: 
+    radial-gradient(circle at center, rgba(0,0,0,0) 5%, var(--vignette-color) 100%),
+    radial-gradient(var(--dot-color) 1px, rgba(255,255,255,0) 1px);
+  background-size: cover, 20px 20px;
+  background-repeat: no-repeat, repeat;
+  background-position: center, 0 0;
+  background-attachment: fixed;
+}
