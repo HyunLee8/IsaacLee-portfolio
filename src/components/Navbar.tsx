@@ -9,7 +9,7 @@ import {
 export default function Navbar() {
   return (
     <div className="pt-4">
-      <nav className="dark:bg-black fixed inset-x-0 items-center justify-center space-x-3 flex w-full max-w-[40rem] mx-auto py-2 border-[0.2px] rounded-full transition border-opacity-10 shadow-[0_0_10px_#4f46e5]">
+      <nav className="fixed dark:bg-black bg-white fixed inset-x-0 items-center justify-center space-x-3 flex w-full max-w-[40rem] mx-auto py-2 border-[0.2px] rounded-full transition border-opacity-10 shadow-[0_0_10px_#4f46e5]">
         <DropdownMenu>
           <DropdownMenuTrigger>Navigation</DropdownMenuTrigger>
           <DropdownMenuContent>
