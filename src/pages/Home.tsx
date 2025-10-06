@@ -17,7 +17,7 @@ export default function Home() {
               Greetings, I'm Isaac Lee
             </h1>
           </div>
-          <div className="text-center text-6xl">
+          <div className="text-center text-6xl font-bold">
             <h1>React/Vite Developer</h1>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Home() {
                 <h2 className="mb-5">
                   Independent Project -- Audio Gesture CV Project
                 </h2>
-                <p className="mb-10 ml-4">
+                <p className="mb-10 ml-4 font-space-grotesk">
                   I developed a computer vision project that combined gesture
                   recognition with audio analysis. Using Python, OpenCV, and
                   signal processing libraries, I created a system that measured
