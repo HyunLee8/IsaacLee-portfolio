@@ -1,5 +1,4 @@
 import ContactForm from "../components/contact-form";
-import CarouselDemo from "../components/carousel.tsx"
 
 export default function Home() {
   return (
@@ -143,12 +142,6 @@ export default function Home() {
                   Supabase
                 </div>
               </a>
-            </div>
-            <div>
-              <h1 className="pt-45 flex justify-center text-7xl font-bold">Projects</h1>
-              <div className="pt-10 flex justify-center">
-                <CarouselDemo />
-              </div>
             </div>
             <div className="">
               <div id="contact" className="">
