@@ -1,1 +1,1 @@
-# My Portfolio --> https://hyunlee8.github.io/IsaacLee-portfolio/
+# Portfolio: https://hyunlee8.github.io/IsaacLee-portfolio/
