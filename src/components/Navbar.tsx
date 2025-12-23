@@ -14,6 +14,7 @@ export default function Navbar() {
           <DropdownMenuTrigger>Navigation</DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuItem onClick={() => document.getElementById("top")?.scrollIntoView({ behavior: "smooth"})}>Landing Page</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth"})}>About</DropdownMenuItem>
             <DropdownMenuItem onClick={() => document.getElementById("experience")?.scrollIntoView({ behavior: "smooth"})}>Experience</DropdownMenuItem>
             <DropdownMenuItem onClick={() => document.getElementById("skills")?.scrollIntoView({behavior: "smooth"})}>Skills</DropdownMenuItem>
             <DropdownMenuItem onClick={() => document.getElementById("contact")?.scrollIntoView({behavior: "smooth"})}>Contact</DropdownMenuItem>

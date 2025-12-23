@@ -7,7 +7,7 @@ export default function Home() {
         <div
           onClick={() =>
             document
-              .getElementById("experience")
+              .getElementById("about")
               ?.scrollIntoView({ behavior: "smooth" })
           }
           className="h-220"
@@ -19,13 +19,35 @@ export default function Home() {
           </div>
           <div className="text-center text-5xl font-bold p-10">
             <h1 className="pb-5">I code for fun</h1>
+            <h1 className="pb-5"></h1>
           </div>
+        </div>
+        <div id="about" />
+        <div className="justify-center flex items-center flex-col h-screen">
+          <div className="px-10 max-w-250 text-center">
+            <h1 className="pt-25 mb-20 text-7xl font-bold text-left">
+              About me
+            </h1>
+            <h2 className="text-left mb-5 font-space-grotesk text-lg">
+              1st year Undergraduate Student at the University of Virginia
+            </h2>
+            <div className="flex flex-col">
+              <p className="mb-10 ml-4 font-space-grotesk leading-relaxed text-left text-lg">
+                {'Hi I\'m Isaac, I go to the University of Virginia still unsure of what I\'m trying to major in but hopefully soon. I enjoy a lot of my free time playing video games like Minecraft, Rainbow Six Siege, and Rocket League while listening to music (my spotify is in the nav). If you play any of these games feel free to reach out so we can play together (I play by myself alot). I\'m kind of a loser so I don\'t go outside much but I fantasize about summiting mountains in washington and alaska so hopefully one day lol. Some other hobbies is playing the piano (currently working on Ballade No. 4) and I just picked up an electric guitar so hopefully I don\'t drop it in like a month. Anyways feel free to reach out if you want to play minecraft or work on something cool.'}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          id="experience"
+          className="w-full text-lg leading-relaxed flex items-center flex-col mb-20"
+        >
         </div>
       </section>
       <section>
         <div
           id="experience"
-          className="w-full text-lg leading-relaxed flex items-center flex-col mb-20"
+          className="w-full text-lg leading-relaxed flex items-center flex-col"
         >
           <div className="justify-center flex items-center flex-col">
             <div className="px-10 max-w-250">
@@ -95,7 +117,7 @@ export default function Home() {
               <div className="flex flex-wrap">
                 <h1 className="mb-5">On-Going Project -- Autonomous Drone Navigation</h1>
                 <p className="ml-4">
-                This project is an autonomous drone-based object search system controlled through a macOS application. An LLM interprets user intent, plans the search, and converts high-level instructions into discrete flight commands while providing real-time verbal feedback. Using onboard vision with YOLOv11-Nano, ORB-SLAM3, optical flow, and an Error-State Kalman Filter, the drone localizes, maps, and navigates indoor spaces while maintaining memory to avoid redundant searches. The system is extensible to building-scale mapping and spatial reconstruction applications.
+                  This project is an autonomous drone-based object search system controlled through a macOS application. An LLM interprets user intent, plans the search, and converts high-level instructions into discrete flight commands while providing real-time verbal feedback. Using onboard vision with YOLOv11-Nano, ORB-SLAM3, optical flow, and an Error-State Kalman Filter, the drone localizes, maps, and navigates indoor spaces while maintaining memory to avoid redundant searches. The system is extensible to building-scale mapping and spatial reconstruction applications.
                 </p>
               </div>
             </div>
