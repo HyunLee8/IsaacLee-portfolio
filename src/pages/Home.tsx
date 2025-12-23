@@ -14,11 +14,11 @@ export default function Home() {
         >
           <div className="flex justify-center pt-80">
             <h1 className="text-2xl front-bold animate-pulse animate-colorfade text-blue-500 transition-colors hover:text-blue-500 cursor-pointer py-5 px-10 rounded-full mt-0 hover">
-              Greetings, I'm Isaac Lee
+              Hi I'm Isaac Lee
             </h1>
           </div>
           <div className="text-center text-5xl font-bold p-10">
-            <h1 className="pb-5">ML/AI and SWE Developer</h1>
+            <h1 className="pb-5">I code for fun</h1>
           </div>
         </div>
       </section>
@@ -93,12 +93,9 @@ export default function Home() {
             </div>
             <div className="px-10 max-w-250">
               <div className="flex flex-wrap">
-                <h1 className="mb-5">Independent Project -- Sea Wall Meditation App</h1>
+                <h1 className="mb-5">On-Going Project -- Autonomous Drone Navigation</h1>
                 <p className="ml-4">
-                  Web application for users who seek sounds for meditation, sleep, and focus.
-                  SupaBase, Hono, and Drizzle are used to oraganize and construct the backend
-                  of the application. Next.js, UI shadcn, magic UI, tailwind, and other similar
-                  frameworks were used in order the create the  user end.
+                This project is an autonomous drone-based object search system controlled through a macOS application. An LLM interprets user intent, plans the search, and converts high-level instructions into discrete flight commands while providing real-time verbal feedback. Using onboard vision with YOLOv11-Nano, ORB-SLAM3, optical flow, and an Error-State Kalman Filter, the drone localizes, maps, and navigates indoor spaces while maintaining memory to avoid redundant searches. The system is extensible to building-scale mapping and spatial reconstruction applications.
                 </p>
               </div>
             </div>
@@ -134,12 +131,12 @@ export default function Home() {
               </a>
               <a href="https://tensorflow.org">
                 <div className="w-80 h-60 border-1 border-black dark:border-white flex items-center justify-center hover:text-white hover:bg-black transition-colors duration-600 text-3xl font-bold dark:text-white dark:hover:text-black dark:hover:bg-white drop-shadow-[0_0_90px_#4f46e5]">
-                  Open CV
+                  Computer Vision
                 </div>
               </a>
               <a href="https://ui.shadcn.com/">
                 <div className="w-80 h-60 border-1 border-black dark:border-white flex items-center justify-center hover:text-white hover:bg-black transition-colors duration-600 text-3xl font-bold dark:text-white dark:hover:text-black dark:hover:bg-white drop-shadow-[0_0_90px_#4f46e5]">
-                  Supabase
+                  Tello SDK
                 </div>
               </a>
             </div>
