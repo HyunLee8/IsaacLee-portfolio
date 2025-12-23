@@ -10,7 +10,7 @@ export default function Home() {
               .getElementById("about")
               ?.scrollIntoView({ behavior: "smooth" })
           }
-          className="h-220"
+          className="h-screen"
         >
           <div className="flex justify-center pt-80">
             <h1 className="text-2xl front-bold animate-pulse animate-colorfade text-blue-500 transition-colors hover:text-blue-500 cursor-pointer py-5 px-10 rounded-full mt-0 hover">
@@ -22,8 +22,8 @@ export default function Home() {
             <h1 className="pb-5"></h1>
           </div>
         </div>
-        <div id="about" />
-        <div className="justify-center flex items-center flex-col h-screen">
+        <div id="about" className="pb-10"/>
+        <div className="justify-center flex items-center flex-col ">
           <div className="px-10 max-w-250 text-center">
             <h1 className="pt-25 mb-20 text-7xl font-bold text-left">
               About me
@@ -47,7 +47,7 @@ export default function Home() {
       <section>
         <div
           id="experience"
-          className="w-full text-lg leading-relaxed flex items-center flex-col"
+          className="w-full text-lg leading-relaxed flex items-center flex-col mb-25"
         >
           <div className="justify-center flex items-center flex-col">
             <div className="px-10 max-w-250">
@@ -86,7 +86,7 @@ export default function Home() {
       </section>
       <section>
         <div
-          id="experience"
+          id="projects"
           className="w-full text-lg leading-relaxed flex items-center flex-col mb-20"
         >
           <div className="justify-center flex items-center flex-col">
@@ -148,7 +148,7 @@ export default function Home() {
               </a>
               <a href="https://pytorch.org/">
                 <div className="w-80 h-60 border-1 border-black dark:border-white flex items-center justify-center hover:text-white hover:bg-black transition-colors duration-600 text-3xl font-bold dark:text-white dark:hover:text-black dark:hover:bg-white drop-shadow-[0_0_90px_#4f46e5]">
-                  Tailwind CSS
+                  Tailwind
                 </div>
               </a>
               <a href="https://tensorflow.org">
