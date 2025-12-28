@@ -19,6 +19,7 @@ export default function Home() {
           </div>
           <div className="text-center text-5xl font-bold p-10">
             <h1 className="pb-5">I code for fun</h1>
+            <h1 className="text-xs mt-10">Last Update: 12/27/2025</h1>
             <h1 className="pb-5"></h1>
           </div>
         </div>
