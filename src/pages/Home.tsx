@@ -1,5 +1,3 @@
-import ContactForm from "../components/contact-form";
-
 export default function Home() {
   return (
     <div id="bgWrap" className="mix-h-screen w-full flex-grow">
@@ -23,7 +21,7 @@ export default function Home() {
             <h1 className="pb-5"></h1>
           </div>
         </div>
-        <div id="about" className="pb-10"/>
+        <div id="about" className="pb-10" />
         <div className="justify-center flex items-center flex-col ">
           <div className="px-10 max-w-250 text-center">
             <h1 className="pt-25 mb-20 text-7xl font-bold text-left">
@@ -67,7 +65,7 @@ export default function Home() {
             <div className="px-10 max-w-250">
               <div className="flex flex-wrap">
                 <h1 className="mb-5">
-                  UX/UI Intern — PrimeAcademy Inc.
+                  UX/UI Intern — PrimeAcademy NOVA
                 </h1>
                 <p className="ml-4">
                   During my time at PrimeAcademy Inc., I worked on designing and
@@ -93,11 +91,11 @@ export default function Home() {
           <div className="justify-center flex items-center flex-col">
             <div className="px-10 max-w-250">
               <h1 className="pt-25 mb-20 text-7xl font-bold text-left">
-                Projects
+                Favorite Projects
               </h1>
               <div className="flex flex-wrap">
                 <h2 className="mb-5">
-                  Independent Project -- ESKF for Quaternion Orientation
+                  Completed Project -- Error State Kalman Filter
                 </h2>
                 <p className="mb-10 ml-4 font-space-grotesk">
                   Developed a sensor fusion framework that integrates a Kalman Filter with quaternion-based orientation tracking for high-accuracy flight state estimation. The system fuses IMU inputs—angular velocity, acceleration, and magnetic field data—to improve real-time attitude and trajectory stability. Using quaternions ensures smooth rotation representation without singularities, while the Kalman Filter’s probabilistic state estimation and noise modeling minimize drift and uncertainty for robust dynamic tracking.
@@ -107,7 +105,7 @@ export default function Home() {
             <div className="px-10 max-w-250">
               <div className="flex flex-wrap">
                 <h1 className="mb-5">
-                  Independent Project -- Fake News Detector
+                  Completed Project -- Fake News Detector
                 </h1>
                 <p className="mb-10 ml-4">
                   Developed a fake news detection system using TensorFlow and Keras with LSTM recurrent neural networks to classify news articles as real or fake. The text data was preprocessed using NLTK for tokenization, stopword removal, and lemmatization to enhance feature quality. Model performance was rigorously evaluated using accuracy, precision, recall, and F1-score metrics to ensure balanced and reliable classification results.
@@ -134,38 +132,68 @@ export default function Home() {
             <div className="flex flex-wrap gap-4 justify-center ">
               <a href="https://react.dev/">
                 <div className="w-80 h-60 border-1 border-black dark:border-white flex items-center justify-center hover:text-white hover:bg-black transition-colors duration-600 text-3xl font-bold dark:text-white dark:hover:text-black dark:hover:bg-white drop-shadow-[0_0_90px_#4f46e5]">
-                  React
+                  Next.js/Vite
                 </div>
               </a>
               <a href="https://vite.dev/">
                 <div className="w-80 h-60 border-1 border-black dark:border-white flex items-center justify-center hover:text-white hover:bg-black transition-colors duration-600 text-3xl font-bold dark:text-white dark:hover:text-black dark:hover:bg-white drop-shadow-[0_0_90px_#4f46e5]">
-                  Next.js/Vite
+                  Computer Vision
                 </div>
               </a>
               <a href="https://tailwindcss.com/">
                 <div className="w-80 h-60 border-1 border-black dark:border-white flex items-center justify-center hover:text-white hover:bg-black transition-colors duration-600 text-3xl font-bold dark:text-white dark:hover:text-black dark:hover:bg-white drop-shadow-[0_0_90px_#4f46e5]">
-                  Tensorflow
+                  Natural Language
                 </div>
               </a>
               <a href="https://pytorch.org/">
                 <div className="w-80 h-60 border-1 border-black dark:border-white flex items-center justify-center hover:text-white hover:bg-black transition-colors duration-600 text-3xl font-bold dark:text-white dark:hover:text-black dark:hover:bg-white drop-shadow-[0_0_90px_#4f46e5]">
-                  Tailwind
+                  C++
                 </div>
               </a>
               <a href="https://tensorflow.org">
                 <div className="w-80 h-60 border-1 border-black dark:border-white flex items-center justify-center hover:text-white hover:bg-black transition-colors duration-600 text-3xl font-bold dark:text-white dark:hover:text-black dark:hover:bg-white drop-shadow-[0_0_90px_#4f46e5]">
-                  Computer Vision
+                  Rust
                 </div>
               </a>
               <a href="https://ui.shadcn.com/">
                 <div className="w-80 h-60 border-1 border-black dark:border-white flex items-center justify-center hover:text-white hover:bg-black transition-colors duration-600 text-3xl font-bold dark:text-white dark:hover:text-black dark:hover:bg-white drop-shadow-[0_0_90px_#4f46e5]">
-                  Tello SDK
+                  Java
                 </div>
               </a>
             </div>
             <div className="">
-              <div id="contact" className="">
-                <ContactForm />
+              <div id="contact" className="flex flex-col justify-center items-center pb-50">
+                <h1 className="text-7xl font-bold mt-40 mb-20">Contacts & Socials</h1>
+                <div className="flex flex-grid gap-40">
+                  <div className="flex flex-col gap-10">
+                    <div>
+                      <p className="xs">Primary Email</p>
+                      <p className="text-3xl">Hyunlee537@gmail.com</p>
+                    </div>
+                    <div>
+                      <p className="xs">Secondary Email</p>
+                      <p className="text-3xl">legoae86@gmail.com</p>
+                    </div>
+                    <div>
+                      <p className="xs">Mobile</p>
+                      <p className="text-3xl">+1 (703) 477 3200</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-10">
+                    <div>
+                      <p className="xs">Github</p>
+                      <p className="text-3xl">Hyunlee8</p>
+                    </div>
+                    <div>
+                      <p className="xs">Spotify</p>
+                      <p className="text-3xl">Igack</p>
+                    </div>
+                    <div>
+                      <p className="xs">Discord</p>
+                      <p className="text-3xl">Igack_</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

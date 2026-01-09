@@ -27,7 +27,6 @@ export default function Navbar() {
             <DropdownMenuItem><a href="https://github.com/HyunLee8">GitHub</a></DropdownMenuItem>
             <DropdownMenuItem><a href="https://open.spotify.com/user/249lw9zwlh70b2wak8phnb9k9?si=2777a88c30a342ab&nd=1&dlsi=d6fdf3cc75474d4a">Spotify</a></DropdownMenuItem>
             <DropdownMenuItem><a href="https://www.linkedin.com/in/hyun-lee-a2934b396/">LinkedIn</a></DropdownMenuItem>
-            <DropdownMenuItem>Instagram</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
         <div>
